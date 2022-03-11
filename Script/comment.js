@@ -30,25 +30,10 @@ const data = [
     },
     {
         img: `Image/nazar.jpg`,
-        text: `my wish for you is very clear
-to make crossover 23 realese
-with directX 12 inside of it
-so from the morning till the night
-The Elden Ring will be your guidance light
-the world is big
-It'll never end
-so after each boss there will be next
-with different moveset and stregth Presets
-And finally there'll be a day
-when you will find that magic trade
-and all Of different Sorts of spells 
-like ice walls, stOrms and quakes
-will coSt as low as just 1 soul
-so you can simply buy just all of them
-and cast how many tImes you like
-because your mana'll never end
-and that's how you'll pve and pvp
-in search of Elden , fuckin', Ring`
+        text: `my wish for you is very clear to make crossover 23 realese with directX 12 inside of it so from the morning till the night The Elden Ring will be your guidance light
+the world is big It'll never end so after each boss there will be next with different moveset and stregth Presets And finally there'll be a day when you will find that magic trade
+and all Of different Sorts of spells  like ice walls, stOrms and quakes will coSt as low as just 1 soul so you can simply buy just all of them and cast how many tImes you like
+because your mana'll never end and that's how you'll pve and pvp in search of Elden , fuckin', Ring`
     },
     {
         img: `Image/julia.jpg`,
