@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edem k Pobede</title>
+    <link rel="stylesheet" href="styles/normalize.css" type="text/css">
+    <link rel="stylesheet" href="styles/Header.css" type="text/css">
+    <link rel="stylesheet" href="styles/main_gallery.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/Body.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/main_info.css">
+    <link rel="stylesheet" href="styles/main_comment.css">
+    <link rel="stylesheet" href="styles/main_contact.css">
+</head>
+<body>
+<div class="body-wrapper">
+    <nav>
+        <div class="content-wrapper">
+            <div class="nav-wrapper">
+                <img src="Image/Kaniel_logo-removebg-preview.png">
+                <div class="button-wrapper">
+                    <a href="#gallery"><p>Галлерея</p></a>
+                    <a href="#info"><p>Инфо</p></a>
+                    <a href="#comment"><p>Коментарии</p></a>
+                    <a href="#contact"><p>Связаться</p></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="content-wrapper">
+            <div class="main-wrapper">
+                <div class="container-gallery" id="gallery">
+                    <div class="slides">
+                        <img src="Image/1.jpg" alt="">
+                    </div>
+                    <div class="slides">
+                        <img src="Image/2.jpg" alt="">
+                    </div>
+                    <div class="slides">
+                        <img src="Image/3.jpg" alt="">
+                    </div>
+                    <a class="next" onclick="plusSlide(1)">&#10095;</a>
+                    <a class="prev" onclick="plusSlide(-1)">&#10094;</a>
+                    <div class="text-content-gallery">
+                        <p class="text-caption"></p>
+                    </div>
+                </div>
+                <div class="info" id="info">
+                    <div class="post-info">
+                        <div class="info-image">
+                            <img src="Image/vitalikcom.jpg" alt="">
+                        </div>
+                        <div class="info-title">
+                            <p>Тайтл для победителей</p>
+                        </div>
+                        <div class="info-text">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has
+                                been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                took a
+                                galley of type and scrambled it to make a type specimen book.It has survived not only
+                                five
+                                centuries, but also the leap into electronic typesetting, remaining essentially
+                                unchanged.Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum
+                                has
+                                been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                took a
+                                galley of type and scrambled it to make a type specimen book.It has survived not only
+                                five
+                                centuries, but also the leap into electronic typesetting, remaining essentially
+                                unchanged.unchanged.Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum
+                                has
+                                been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                took a
+                                galley of type and scrambled it to make a type specimen book.It has survived not only
+                                five
+                                centuries, but also the leap into electronic typesetting, remaining essentially
+                                unchanged.unchanged.Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum
+                                has
+                                been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                took a
+                                galley of type and scrambled it to make a type specimen book.It has survived not only
+                                five
+                                centuries, but also the leap into electronic typesetting, remaining essentially
+                                unchanged.
+                            </p>
+                        </div>
+                        <div class="info-button">
+                            <button> Больше информации</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment" id="comment">
+                    <div class="comment-conteiner">
+                        <div class="comment-wrapper open">
+                            <img src="Image/human1.jpg" alt="human1">
+                            <div class="comment-text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae tortor nisl.
+                                    Phasellus congue non est molestie sagittis. Nullam ipsum dui, vestibulum vel rhoncus
+                                    a, consequat vitae nulla. Curabitur sed odio vel turpis scelerisque tincidunt.</p>
+                            </div>
+                        </div>
+                        <div class="comment-button-wrapper">
+                            <button></button>
+                            <button></button>
+                            <button></button>
+                            <button></button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="contact" id="contact">
+            <form class="contact-wrapper" onsubmit="">
+                <div class="name-conteiner block">
+                    <!--                            <label class="label-contact" for="name-contact"> Name:</label>-->
+                    <input type="text" class="contact-input" id="name-contact" placeholder="Name" pattern="[a-z]+" required>
+                </div>
+                <div class="email-conteiner block">
+                    <!--                            <label class="label-contact" for="email-contact"> Email:</label>-->
+                    <input type="email" class="contact-input" id="email-contact" placeholder="Email" required>
+                </div>
+                <div class="description-conteiner block">
+                    <!--                            <label class="label-contact" for="discription-contact"> Description:</label>-->
+                    <textarea type="text" class="contact-input" id="discription-contact" placeholder="describe your opinoin about us!" required minlength="10"></textarea>
+                </div>
+                <div>
+                    <input type="checkbox" id="contact-checkbox">
+                    <label for="contact-checkbox" id="contact-checkbox-label"> You agree with our terms?</label>
+                </div>
+                <input type="submit" id="submit-button" class="contact-button" value="Send" name="input">
+            </form>
+        </div>
+        <div class="footer-icon">
+        <div class="footer-block">
+            <a href=""><img src="Image/telegram-removebg-preview.png" alt="telegram"></a>
+            <p> This is Kaniel telegram</p>
+        </div>
+        <div class="footer-block">
+            <a href=""> <img src="Image/insta-removebg-preview.png" alt=""></a>
+            <p> This is Kaniel instagram</p>
+        </div>
+        <div class="footer-block">
+            <a href=""> <img src="Image/facebook-removebg-preview.png" alt=""></a>
+            <p> This is Kaniel FaceBook</p>
+        </div>
+        </div>
+    </footer>
+</div>
+<script src="Script/Gallery.js"></script>
+<script src="Script/info.js"></script>
+<script src="Script/comment.js"></script>
+<script src="Script/contact.js"></script>
+</body>
+</html>

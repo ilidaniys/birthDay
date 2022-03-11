@@ -1,0 +1,10 @@
+main {
+    margin-top: calc(var(--height-nav) + 2rem);
+    min-height: var(--height-main);
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
