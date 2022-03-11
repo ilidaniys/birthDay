@@ -7,8 +7,9 @@ const commentText = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cr
                      a, consequat vitae nulla. Curabitur sed odio vel turpis scelerisque tincidunt.`
 const data = [
     {
-        img: `Image/human1.jpg`,
-        text: commentText
+        img: `Image/fedua.jpg`,
+        text: `Нормальный малый, рабочий. За доброту и поддержку в нужные моменты автоматически накидываю 5 балов, немного смущает рост т.к приходиться высоко поднимать голову. Но за такую стоимость это мелочи.
+В целом лучшая покупка за одну бутылку вина в моей жизни. Буду поддерживать производителя и дальше, с нетерпением жду 21 версию`
     },
     {
         img: `Image/human2.jpg`,
