@@ -1,5 +1,6 @@
 
 footer{
+    margin-top: 2rem;
     height: var(--height-footer);
     /*padding-bottom: 10rem;*/
     /*background-color: var(--additional-color-20);*/
