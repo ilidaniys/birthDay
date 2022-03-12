@@ -36,7 +36,7 @@
     --main-color-gradient: linear-gradient(rgb(222, 219, 230), rgb(193, 204, 218), rgb(163, 189, 206), rgb(132, 174, 195), rgb(99, 159, 183));
 
     --height-nav: 4rem;
-    --height-footer: 7rem;
+    --height-footer: auto;
     --height-main: calc(100vh - (var(--height-footer) + var(--height-nav)));
 }
 
