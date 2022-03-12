@@ -32,6 +32,14 @@ const data = [
         опция смены региона. Хочу поставить 10/10, но пока последний мой запрос залагал, ставлю 2, разрабы срочно пофиксите!!`
     },
     {
+        img: `Image/serg.jpg`,
+        text: `Виталик Рогалик одна штука. Приехал быстро, качественно упакованный не смотря что бу. Немного побитый и потрепанный жизнью на качество все еще достойное. Пробег 20 лет, прошивка на линуксе, но с поддержкой винды и мака через встроенный апиай. Всем советую, очень удачное вложение времени и денег, ни разу не пожалел о приобретении данного товара с вашего сайта. В дополнение в всему выще перечисленному идет отличный перформанс на болейне, а так же проверенная стратегия старта за Флоренцию. Желаю и дальшего активного развития данному товару, а так же расширения зоны поддержки на Канаду или територию Европейского Союза. 
+Версия: vitalicom2.5.31
+Прошивка: Лидер11(В)
+Год приобретения: 2014 
+Оценка - 9.5/10`
+    },
+    {
         img: `Image/nazar.jpg`,
         text: `my wish for you is very clear to make crossover 23 realese with directX 12 inside of it so from the morning till the night The Elden Ring will be your guidance light
 the world is big It'll never end so after each boss there will be next with different moveset and stregth Presets And finally there'll be a day when you will find that magic trade
@@ -42,6 +50,7 @@ because your mana'll never end and that's how you'll pve and pvp in search of El
         img: `Image/julia.jpg`,
         text: `Хороший товар, іноді канєшно глючить, але коли працює - то безподобний. 9,5/10 дякую заводчикам.`
     },
+
 ]
 
 const createElem = (tag, classname = "") => {
